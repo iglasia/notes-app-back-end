@@ -37,7 +37,7 @@ const uploads = require("./api/uploads");
 const StorageService = require("./services/S3/StorageService");
 const UploadsValidator = require("./validator/uploads");
 
-// cache
+// cache solved cache
 const CacheService = require("./services/redis/CacheService");
 
 const init = async () => {
